@@ -27,6 +27,7 @@ git merge "nombre-rama"  # Unir rama con tronco principal (main).
 git pull # Bajar o desacargar ultima versión de codigo al local
 git fetch # Descarga cambios del remoto sin mezclarlos.
 
-python -m venv venv
-venv/Scripts/activate
+python -m venv venv # crear entorno
+venv/Scripts/activate # Activar entornno
+deactivate # Desactivar entorno
 ```
