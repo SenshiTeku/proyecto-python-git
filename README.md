@@ -19,6 +19,11 @@ En tu terminal:
 ```bash
 git add README.md
 git commit -m "Add README.md con información del proyecto"
-git push
+git push # Envía tus commits locales al remoto.
 
+git branch # Ver en que rama estoy hubicado.
+git checkout -b
+git merge "nombre-rama"  # Unir rama con tronco principal (main).
+git pull # Bajar o desacargar ultima versión de codigo al local
+git fetch # Descarga cambios del remoto sin mezclarlos.
 ```
