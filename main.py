@@ -1,1 +1,2 @@
-print("Hola Git desde python vs code")
+nombre = input("Como te llamas ?")
+print(f"{nombre}, bienvenido, a Git desde python vs code")
